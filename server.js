@@ -6,7 +6,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 // Initialize our app variable by setting it to the value of express()
 const app = express();
-const PORT = proces.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 //Use middleware to parse JSON and urlencoded form data
 app.use(express.json());
